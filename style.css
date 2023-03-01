@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #433379;
+    
+    position: relative;
+    color: #CA9D46;
+    font-family: 'Pacifico', cursive;
+}
+
+.main-btn{
+    font-family: 'Pacifico', cursive;
+    background-color: #4D3B8B;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    width: 15vw;
+    height: 10vh;
+    color: #207976;
+    font-size: 2vw;
+    border: 1px solid #207976;
+    border-radius: 20px;
+    box-shadow: 0px 5px #207976;
+}
+.main-btn:hover{
+    cursor: pointer;
+    left: 50%;
+    top: 22%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 20px #382B66;
+    transition: 2s;
+    color: #4D3B8B;
+    background-color: white;
+    border: 1px solid #382B66;
+}
+.main-btn:hover + .container-divisorias{
+    display: block;
+    transition: 2s;
+}
+.container-divisorias{
+    width: 100vw;
+    position: absolute;
+    top: 40%;
+}
+.divisoria-esquerda{
+    width: 49%;
+    float: left;
+    text-align: center;
+    border-right: 1px solid;
+}
+.divisoria-direita{
+    width: 49%;
+    float: right;
+    text-align: center;
+    border-left: 1px solid;
+}
+.profile-pic{
+    min-width: 100px;
+    width: 20%;
+    margin: 40px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+.profile-description{
+    min-width: 200px;
+    width: 15vw;
+    margin: auto;
+}
